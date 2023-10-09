@@ -14,13 +14,14 @@ h1 {
     width: 25%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .imagem {
     text-align: center;
     padding-top: 50px;
 }
-
 
 .container {
 
@@ -30,6 +31,13 @@ h1 {
     border: 2px;
     padding-right: 30px;
     padding-left: 10px;
+}
+
+.containerLastname{
+
+text-align: center;
+margin-left: 98px;
+
 }
 
 input {
@@ -64,7 +72,6 @@ input {
     padding-top: 20px;
     padding-left: 14.5px;
 
-
 }
 
 .btnCancelar,
@@ -78,6 +85,12 @@ input {
 
 }
 
+.btnCancelar:hover,
+.btnSalvar:hover {
+
+    cursor: pointer;
+
+}
 
 .salvar {
     padding: 10px;
@@ -92,4 +105,10 @@ input {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+}
+
+ul{
+
+list-style: none;
+
 }
